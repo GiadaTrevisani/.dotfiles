@@ -15,7 +15,7 @@ You need to have **zsh** installed!
 Install using the [install script](install.sh):
 
 ```bash
-zsh -c "$(curl -fsSL https://raw.githubusercontent.com/LucaAngioloni/.dotfiles/main/install.sh)"
+zsh -c "$(curl -fsSL https://raw.githubusercontent.com/GiadaTrevisani/.dotfiles/main/install.sh)"
 ```
 
 This will install all the dependencies, _tools_ and _dotfiles_.
@@ -437,7 +437,7 @@ This should completely skip the login phase.
 
 To make startup faster set in the *General* tab of *Profile* in *Command*:
 
-**Command**: `login -fq lucaangioloni /usr/local/bin/zsh -il`
+**Command**: `login -fq GiadaTrevisani /usr/local/bin/zsh -il`
 
 This serves 2 purposes:
 
