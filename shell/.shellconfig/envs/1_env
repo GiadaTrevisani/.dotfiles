@@ -20,7 +20,7 @@ if [ "$PLATFORM"  = 'mac' ]; then
         export PATH="/opt/homebrew/sbin:$PATH"
 
         # added by Anaconda3 installer in Homebrew
-        export PATH="/opt/homebrew/anaconda3/bin:$PATH"
+        # export PATH="/opt/homebrew/anaconda3/bin:$PATH"
 
         # Removes the (env-name) when activating an environment. It is redundant since the spaceship and powerllevel10k themes do this already (better). If the theme is changed re-activate this
         # conda config --set changeps1 False
@@ -32,9 +32,9 @@ if [ "$PLATFORM"  = 'mac' ]; then
         export PATH="/usr/local/sbin:$PATH"
 
         # added by Anaconda3 installer
-        export PATH="$HOME/anaconda3/bin:$PATH"
-        alias pip3="$HOME/anaconda3/bin/pip"
-        alias python3="$HOME/anaconda3/bin/python"
+        # export PATH="$HOME/anaconda3/bin:$PATH"
+        # alias pip3="$HOME/anaconda3/bin/pip"
+        # alias python3="$HOME/anaconda3/bin/python"
 
         # Removes the (env-name) when activating an environment. It is redundant since the spaceship and powerllevel10k themes do this already (better). If the theme is changed re-activate this
         # conda config --set changeps1 False

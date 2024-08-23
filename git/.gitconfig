@@ -5,12 +5,12 @@
 	smudge = git-lfs smudge -- %f
 [user]
 	name = Giada Trevisani
-	email = trevisani.giada@gmail.com
+	email = giada.trevisani@witapp.it
 	# signingkey = xxxxxxxxxxxxxxxxx
 [pull]
 	rebase = true
 [core]
-	excludesFile = ~/.config/git/global_gitignore
+	excludesfile = /Users/giadatrevisani/.config/git/global_gitignore
 	editor = vim
 [init]
     defaultBranch = main
@@ -107,3 +107,11 @@
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # [commit]
 # 	gpgsign = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/giadatrevisani/.stCommitMsg
